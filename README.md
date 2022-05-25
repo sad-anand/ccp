@@ -39,9 +39,9 @@ Sample Add Card Json
 
 Steps to Run Application
 1. Update dependencies - optional
-mvn install
+<br> mvn install
 2. Launch Application on port 8080
-Run Application.java
+<br> Run Application.java
 --------------------------------------
 # FrontEnd
 
