@@ -37,6 +37,11 @@ Sample Add Card Json
 
 ![image](https://user-images.githubusercontent.com/106242658/170266916-3a92c181-6024-477f-8bc8-f0397803f170.png)
 
+Steps to Run Application
+1. Update dependencies - optional
+mvn install
+2. Launch Application on port 8080
+Run Application.java
 --------------------------------------
 # FrontEnd
 
