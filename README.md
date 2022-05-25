@@ -38,7 +38,7 @@ Sample Add Card Json
 
 Balance is always defaulted to 0
 
-<h2>Folder Structure Explained<h2>
+<h2>Folder Structure Explained</h2>
 ![image](https://user-images.githubusercontent.com/106242658/170266916-3a92c181-6024-477f-8bc8-f0397803f170.png)
 
 Steps to Run Application
