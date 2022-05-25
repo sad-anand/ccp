@@ -38,7 +38,7 @@ Sample Add Card Json
 
 Balance is always defaulted to 0
 
-<h2>Folder Structure Explained</h2>
+Folder Structure Explained
 ![image](https://user-images.githubusercontent.com/106242658/170266916-3a92c181-6024-477f-8bc8-f0397803f170.png)
 
 Steps to Run Application
@@ -54,11 +54,11 @@ Not Handled
 --------------------------------------
 # FrontEnd
 
-<h2>Folder Structure Explained</h2>
+Folder Structure Explained
 ![image](https://user-images.githubusercontent.com/106242658/170276418-d3d7abe9-4a37-40f2-b596-0146cf3d604b.png)
 
 	
-<h2>Working UI Screenshot</h2>
+Working UI Screenshot
 
 ![image](https://user-images.githubusercontent.com/106242658/170273443-3b6319c7-c912-4908-b29e-731090a5db42.png)
 
