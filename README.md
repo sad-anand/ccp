@@ -72,6 +72,6 @@ Steps to Run Application
 1. Update dependencies
 <br/>npm installl
 2. Run Application
-<br/>npum start
+<br/>npm start
 
 <br/> Aplication is launched on http://localhost:3000/
