@@ -1,5 +1,5 @@
 --------------------------------------
-# Credit Card Processor System
+# Credit Card Processing System
 --------------------------------------
 Latest code is in Master
 ------
