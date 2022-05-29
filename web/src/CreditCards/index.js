@@ -35,7 +35,8 @@ export default function CreditCards(props) {
             >
               <TableCell className="card-cell" align="center">{card.name}</TableCell>
               <TableCell className="card-cell" align="center">{convertCardNumber(card.cardNumber)}</TableCell>
-              <TableCell className="card-cell" align="center">£{card.balance}</TableCell>
+				  {card.balance<0? <TableCell className="card-cell card-cell-error" align="center">£{card.balance}</TableCell> 
+				  : <TableCell className="card-cell" align="center">£{card.balance}</TableCell>}
               <TableCell className="card-cell" align="center">£{card.limit}</TableCell>
             </TableRow>
           )) : <TableRow><TableCell colSpan={4} align="center" style={{backgroundColor: "white"}}>No Card Found</TableCell></TableRow>}

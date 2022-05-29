@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import AddCardForm from '../AddCardForm';
 import CreditCards from "../CreditCards";
 import { StyledEngineProvider } from '@mui/material';
-import { getCreditCards } from '../service/card-api';
+import { getCreditCards } from '../Service/card-api';
 
 function App() {
 

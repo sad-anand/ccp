@@ -9,6 +9,10 @@ import org.springframework.stereotype.Component;
 public class CardStore {
 	
 	private static Set<CreditCard> cardStore = new HashSet<>();
+	
+	{
+		cardStore.add(CreditCard.builder().name("Default Card").balance(-1000).cardNumber(1900190019001900l).limit(2000).build());
+	}
 
 	public static Set<CreditCard> getCards() {
 		return cardStore;

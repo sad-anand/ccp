@@ -51,6 +51,8 @@ Not Handled
 1. Valication on Name
 2. Validation on Limit
 
+Added a default card with negative balance -- <em>Added in 'Jira-Updates' changes</em>
+
 --------------------------------------
 # FrontEnd
 
@@ -59,8 +61,8 @@ Folder Structure Explained
 
 	
 Working UI Screenshot
-
-![image](https://user-images.githubusercontent.com/106242658/170273443-3b6319c7-c912-4908-b29e-731090a5db42.png)
+-- <em> Updated in 'Jira-Updates' changes</em>
+![image](https://user-images.githubusercontent.com/106242658/170892526-01ed0610-6840-4752-ad1d-7ed37b28aa09.png)
 
 Functionality Implemented
 
@@ -71,7 +73,7 @@ Functionality Implemented
 
 Not Handled
 
-1. Error is not shown for Add Card API call failure
+1. Error is not shown for Add Card API call failure -- <em>Added in 'Jira-Updates' changes</em>
 2. No Testcases added
 
 Steps to Run Application
@@ -81,3 +83,4 @@ Steps to Run Application
 <br/>npm start
 
 <br/> Aplication is launched on http://localhost:3000/
+
