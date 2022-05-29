@@ -2,6 +2,9 @@ export async function getCreditCards() {
     let data = [];
     try {
         const response = await fetch("http://localhost:8080/creditcard");
+		if(response.status >= 400) {
+			throw new Error("Server responds with error!");
+		}
         data = await response.json()
         console.log(data);
     } 
@@ -12,12 +15,19 @@ export async function getCreditCards() {
 }
 
 export async function addCreditCard(cardDetails) {
-	await fetch("http://localhost:8080/creditcard", {
-            method: "POST",
-            body: cardDetails,
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-        });
+    let data = [];
+	const response = await fetch("http://localhost:8080/creditcard", {
+		method: "POST",
+		body: cardDetails,
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json'
+		},
+	});
+	if(response.status >= 400) {
+		throw new Error("Server responds with error!");
+	}
+	data = await response.json()
+	console.log(data);
+    return data
 }

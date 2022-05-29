@@ -1,0 +1,14 @@
+.cards-input-box {
+	border: groove;
+	height: 2rem;
+	width: 15rem;
+}
+
+.cards-input-label {
+    font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.error {
+	color: red;
+}
