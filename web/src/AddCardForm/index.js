@@ -77,12 +77,7 @@ function AddCardForm(props) {
                 </div>
                 <br />
 				{errorMessage && <div className="error"> {errorMessage} </div>}
-                <button
-                    type="submit"
-                    className="card-button"
-                >
-                    Add
-                </button>
+                <button type="submit" className="card-button">Add</button>
             </form>
         </Fragment>
     )
