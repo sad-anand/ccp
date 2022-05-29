@@ -51,6 +51,8 @@ Not Handled
 1. Valication on Name
 2. Validation on Limit
 
+Added a default card with negative balance -- <h2> Added in 'Jira-Updates' changes</h2>
+
 --------------------------------------
 # FrontEnd
 
@@ -71,7 +73,7 @@ Functionality Implemented
 
 Not Handled
 
-1. Error is not shown for Add Card API call failure
+1. Error is not shown for Add Card API call failure -- <h2> Added in 'Jira-Updates' changes</h2>
 2. No Testcases added
 
 Steps to Run Application
@@ -81,3 +83,4 @@ Steps to Run Application
 <br/>npm start
 
 <br/> Aplication is launched on http://localhost:3000/
+
