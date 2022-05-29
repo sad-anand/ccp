@@ -62,7 +62,7 @@ Folder Structure Explained
 	
 Working UI Screenshot
 
-![image](https://user-images.githubusercontent.com/106242658/170273443-3b6319c7-c912-4908-b29e-731090a5db42.png)
+![image](https://user-images.githubusercontent.com/106242658/170892488-c2d4346f-d7f9-438a-a7ff-60ed0678d6d8.png)
 
 Functionality Implemented
 
