@@ -61,8 +61,8 @@ Folder Structure Explained
 
 	
 Working UI Screenshot
-
-![image](https://user-images.githubusercontent.com/106242658/170892488-c2d4346f-d7f9-438a-a7ff-60ed0678d6d8.png)
+-- <em> Updated in 'Jira-Updates' changes</em>
+![image](https://user-images.githubusercontent.com/106242658/170892526-01ed0610-6840-4752-ad1d-7ed37b28aa09.png)
 
 Functionality Implemented
 
