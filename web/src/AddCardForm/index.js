@@ -79,7 +79,7 @@ function AddCardForm(props) {
 				{errorMessage && <div className="error"> {errorMessage} </div>}
                 <button
                     type="submit"
-                    style={{border: "groove", backgroundColor: "lightgray", color: "white", width: "8rem", height: "2rem"}}
+                    className="card-button"
                 >
                     Add
                 </button>

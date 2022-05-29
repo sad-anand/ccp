@@ -12,3 +12,11 @@
 .error {
 	color: red;
 }
+
+.card-button {
+	border: groove;
+	backgroundColor: lightgray;
+	color: white;
+	width: 8rem;
+	height: 2rem;
+}
