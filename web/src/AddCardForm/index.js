@@ -1,16 +1,18 @@
 import { Fragment } from "react";
-import {addCreditCard} from "../service/card-api"
+import {addCreditCard} from "../Service/card-api"
 
 function AddCardForm(props) {
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
+		const form = event.target;
         const data = {
-            name: event.target["name"].value,
-            cardNumber: event.target["cardNumber"].value,
-            limit: event.target["limit"].value,
+            name: form["name"].value,
+            cardNumber: form["cardNumber"].value,
+            limit: form["limit"].value,
         }
-        addCreditCard(JSON.stringify(data)).then(() => props.onSuccess());
+		form.reset();
+        addCreditCard(JSON.stringify(data)).then(() => props.onSuccess()).catch(err => console.log(err));
     }
 
     const setCustomError = (event, error) => {

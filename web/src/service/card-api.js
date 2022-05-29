@@ -8,13 +8,11 @@ export async function getCreditCards() {
     catch(err) {
         console.error(err);
     }
-    return data
+    return data;
 }
 
 export async function addCreditCard(cardDetails) {
-    let data = [];
-    try {
-        const response = await fetch("http://localhost:8080/creditcard", {
+	await fetch("http://localhost:8080/creditcard", {
             method: "POST",
             body: cardDetails,
             headers: {
@@ -22,11 +20,4 @@ export async function addCreditCard(cardDetails) {
                 'Content-Type': 'application/json'
             },
         });
-        data = await response.json()
-        console.log(data);
-    } 
-    catch(err) {
-        console.error(err);
-    }
-    return data
 }
